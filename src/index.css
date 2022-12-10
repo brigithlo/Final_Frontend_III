@@ -1,0 +1,179 @@
+/* Global y Principal*/
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#app{
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.main{
+  min-height: 75vh;
+  padding-bottom: 5vh;
+}
+h1{
+  text-align: center;
+}
+
+.docImage{
+  max-width: 100%;
+  }
+/*Nav */
+
+
+
+.DH-logo{
+  width: 10em;
+}
+
+nav{
+  position: sticky;
+  width: 100vw;
+  top: 0;
+  display:flex;
+  padding: 2vh 0vh 2vh 0vh;
+  justify-content:space-around;
+  top: 0;
+}
+span{
+  font-weight: 700;
+}
+nav > a{
+  padding: 0.5em;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+
+
+
+/* Card */
+
+.card{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  width: 15%;
+  padding: 0.5rem 0.5rem 0 0.5rem;
+  border: 2px solid rgb(136, 136, 136);
+  border-radius: 10px;
+}
+
+.card:hover{
+  border: 2px solid rgb(240, 139, 139);
+}
+
+.card > a{
+  padding: 0.5em;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.favButton{
+  background-color: rgba(15, 15, 15, 0.116);
+  padding: 10px;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+}
+/* Details */ 
+.details{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+/*Form */
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 40vw;
+  height: 59.5vh;
+}
+label{
+  display: flex;
+  flex-direction: column  ;
+  align-items: center;
+}
+
+.formInput{
+  width: 100%;
+  height: 1.6em;
+  border: 3px solid transparent;
+  margin: 5px;
+  border-radius: 10px;
+  padding-left: 10px;
+  background-color: whitesmoke;
+}
+
+input:focus{
+border-style: dotted;
+border: 3px solid rgb(213, 90, 90);
+outline: none;
+}
+
+/* Home*/
+.card-grid{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+  width: 90%;
+  height: auto;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+
+/*Footer*/
+
+footer {
+
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  text-align: center;
+  position: sticky;
+  bottom: 0;
+  padding: 1.5vh 0vh 1.5vh 0vh;
+  width:100vw;
+  height: 40px;
+}
+
+footer > p{
+  margin: 0;
+  padding-top: 0.7rem;
+}
+
+
+/* Change Themes*/ 
+.checkbox{
+appearance: none;
+cursor: pointer;
+background-color:transparent;
+width: 2.5em;
+height:2.5em;
+border: 2px solid rgb(165, 161, 161);
+border-radius: 30%;
+}
+.checkbox > img{
+  width: 100%;
+}
